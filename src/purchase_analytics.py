@@ -113,7 +113,7 @@ if __name__ == "__main__":
     # input files
     _INFILE_ORDER = sys.argv[1]
     _INFILE_PRODUCT = sys.argv[2]
-    _OUTFILE_REPORT = sys.argv[1]
+    _OUTFILE_REPORT = sys.argv[3]
 
     # reads input data
     order_data = read_table(
